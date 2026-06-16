@@ -1,0 +1,26 @@
+# Raw and processed data
+data/raw/
+data/processed/
+early_diabetes_screening/data/raw/
+early_diabetes_screening/data/processed/
+
+# Data files
+*.csv
+*.XPT
+*.xpt
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# R history files
+.Rhistory
+*.Rhistory
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
