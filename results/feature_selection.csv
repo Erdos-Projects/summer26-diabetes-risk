@@ -1,0 +1,16 @@
+feature,decision,reason
+SEQN,drop,Participant identifier; not predictive health information.
+diabetes,drop,Target variable; must not be used as predictor.
+doctor_diabetes,drop,Encodes diabetes diagnosis and may leak target information.
+DIQ010,drop,Doctor diagnosis variable used to define diabetes target.
+LBXGH,drop,HbA1c lab value used to define diabetes target.
+LBXGLU,drop,Fasting glucose lab value used to define diabetes target.
+"PAD660, PAQ655, PAD675, PAQ670",keep for now / evaluate later,"High missingness, but may reflect survey skip patterns and physical activity information."
+"BPXOSY1, BPXOSY2, BPXOSY3",engineer,Highly correlated repeated systolic BP measurements; average systolic BP created.
+"BPXODI1, BPXODI2, BPXODI3",engineer,Highly correlated repeated diastolic BP measurements; average diastolic BP created.
+avg_systolic_bp,engineered,Average systolic blood pressure created to reduce redundancy.
+avg_diastolic_bp,engineered,Average diastolic blood pressure created to reduce redundancy.
+bmi_category,engineered,Clinically interpretable BMI grouping.
+age_group,engineered,Clinically interpretable age grouping.
+high_bp_indicator,engineered,Summarizes blood pressure risk using average systolic/diastolic BP.
+waist_bmi_ratio,engineered / evaluate later,"Explored as a ratio feature, but showed little separation between diabetes groups."
