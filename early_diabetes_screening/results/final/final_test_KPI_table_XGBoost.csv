@@ -1,0 +1,2 @@
+model,threshold,accuracy,balanced_accuracy,recall,precision,f1,roc_auc,pr_auc
+XGBoost,0.5,0.6957,0.7369,0.8049,0.3737,0.5105,0.7975,0.4513
