@@ -1,0 +1,25 @@
+
+Data Source: CDC NHANES 2017-March 2020 Pre-Pandemic
+Source URL: https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2017-2020
+Acquisition Type: Manual download from CDC NHANES website
+Run Timestamp: 2026-06-16 10:16:07.508559
+Merge Key: SEQN
+
+Expected Raw Files:
+P_DEMO.XPT
+P_BMX.XPT
+P_BPXO.XPT
+P_GHB.XPT
+P_GLU.XPT
+P_DIQ.XPT
+P_BPQ.XPT
+P_PAQ.XPT
+P_SMQ.XPT
+P_ALQ.XPT
+P_DBQ.XPT
+
+Raw Data Folder:
+D:\Erdos\Data Science Bootcamp\summer26-diabetes-risk\data\raw
+
+Missing Files:
+['P_DEMO.XPT', 'P_BMX.XPT', 'P_BPXO.XPT', 'P_GHB.XPT', 'P_GLU.XPT', 'P_DIQ.XPT', 'P_BPQ.XPT', 'P_PAQ.XPT', 'P_SMQ.XPT', 'P_ALQ.XPT', 'P_DBQ.XPT']
